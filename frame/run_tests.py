@@ -37,8 +37,8 @@ def send_mail(file_new):
     try:
         smtp = smtplib.SMTP_SSL()
         smtp.connect("smtp.qq.com",465)
-        smtp.login("531474715@qq.com","awjbutkkynsybihg")
-        smtp.sendmail("531474715@qq.com","531474715@163.com", message.as_string())
+        smtp.login("xxx@qq.com","xxx")
+        smtp.sendmail("xxx@qq.com","531474715@163.com", message.as_string())
         smtp.quit()
         print('email has send out!')
     except smtplib.SMTPException:
