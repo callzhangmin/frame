@@ -1,5 +1,4 @@
-# guest
-发布会签到系统
+# frame
 
 介绍：
   本项目为《Web接口开发与自动化测试--基于Python语言》一书中项目代码。代码实现的一个较为完整的发布会签到系统。
@@ -17,5 +16,6 @@ Python版本与依赖库：
   * Requests : http://www.python-requests.org/en/master/ (运行/function_tests目录下的接口用例需要)
   * django-bootstrap3 : https://github.com/dyve/django-bootstrap3
 
-对应教材购买：
-  https://item.jd.com/12164814.html
+
+
+主要是搭建了frame的框架，用unittest的框架下，对db等进行了封装。
